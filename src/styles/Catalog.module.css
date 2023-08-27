@@ -1,0 +1,32 @@
+.catalogContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25%;
+}
+
+.catalog {
+    font-family: 'Noto Serif', serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--white);
+}
+
+.btnCatalog {
+    margin-top: 50px;
+    width: 261px;
+    height: 51px;
+    border: 1px solid var(--white, #FFF);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    color: var(--white);
+    background: #333;
+    cursor: pointer;
+}

@@ -1,0 +1,79 @@
+.header {
+    width: 1110px;
+    height: 52px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    padding-top: 25px;
+    font-size: 50px;
+    color: #FFF;
+}
+.logo {
+    margin: 0 99px 0 126px;
+    width: 216px;
+    height: 52px;
+}
+
+.nav, .userPanel {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+.nav {
+    padding: 18px 0 13px;
+}
+li {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.search {
+    margin: 0;
+    padding: 0;
+    width: 48px;
+    height: 21px;
+    border: none;
+    background: none;
+}
+.search::placeholder {
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.userPanel {
+    padding: 18px 0 13px;
+
+}
+.faSearch {
+    width: 24px;
+    height: 24px;
+}
+.userBtn, .faSearch {
+    border: none;
+    background: none;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+color: #FFF;
+cursor: pointer;
+}
+
+.search::placeholder {
+    color: #FFF;
+}
+
+.cartUser {
+    cursor: pointer;
+    display: flex;
+    gap: 25px;
+}

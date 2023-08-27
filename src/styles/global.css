@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+
+    text-decoration: none;
+  }
+  
+  ul,
+  li {
+
+    list-style: none;
+  }
+
+  .bgRing {
+    background: url('../images/bgRing.svg') center center no-repeat;
+    width: 1920px;
+height: 950px;
+
+  }
+  .app { 
+    width: 1920px;
+    margin: 0 auto;
+  }
+
+  .flex {
+    display: flex;
+  }
+  
+  .flex-center {
+    align-items: center;
+    justify-content: center;
+  }
