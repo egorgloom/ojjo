@@ -3,6 +3,7 @@ import Catalog from './components/Catalog/Catalog';
 import CocoFineJewelry from './components/CocoFineJewelry/CocoFineJewelry';
 
 import Header from './components/Header/Header';
+import ProductCatalog from './components/ProductCatalog/ProductCatalog';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Catalog />
       <CocoFineJewelry />
       </div>
+      <ProductCatalog />
     </div>
   );
 }
