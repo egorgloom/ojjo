@@ -7,6 +7,7 @@ import ProductCatalog from './components/ProductCatalog/ProductCatalog';
 import Salons from './components/Salons/Salons';
 import SocialLinks from './components/SocialLinks/SocialLinks';
 import UsefulArticles from './components/UsefulArticles/UsefulArticles';
+import Mailing from './components/Mailing/Mailing';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Salons />
       <UsefulArticles />
       <SocialLinks />
+      <Mailing />
     </div>
   );
 }
