@@ -19,7 +19,7 @@
     margin-top: 50px;
     width: 261px;
     height: 51px;
-    border: 1px solid var(--white, #FFF);
+    border: 1px solid var(--white);
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -27,6 +27,6 @@
     letter-spacing: 1.8px;
     text-transform: uppercase;
     color: var(--white);
-    background: #333;
+    background: var(--lightBlack);
     cursor: pointer;
 }

@@ -1,0 +1,59 @@
+.salonsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 541px;
+
+    background: url('../images/bgSalons.svg') center center no-repeat;
+
+}
+
+.question {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 15px;
+    color: var(--white);
+}
+
+.visitSalons {
+
+    font-family: 'Noto Serif', serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--white);
+}
+
+.text {
+    width: 730px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    color: var(--white);
+    margin-bottom: 60px;
+}
+
+.btnOurSalons {
+    width: 224px;
+    height: 51px;
+    background: var(--white);
+    text-transform: uppercase;
+    color: var(--lightBlack);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    border-style: none;
+
+
+}
