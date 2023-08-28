@@ -11,8 +11,8 @@ import img6 from '../../images/6.svg';
 export default function ProductCatalog() {
     return (
         <section className={styles.productContainer}>
-            <h5>К мероприятиям</h5>
-            <h2>Настоящая красота здесь!</h2>
+            <h5 className='titleH5Section'>К мероприятиям</h5>
+            <h2 className='titleH2Section'>Настоящая красота здесь!</h2>
             <div className={styles.btnBlock}>
                 <button className={styles.btnCollection}>Свадьба</button>
                 <button className={styles.btnCollection}>Мужу</button>
