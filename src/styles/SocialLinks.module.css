@@ -1,0 +1,13 @@
+.socialLinksContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.preview {
+    height: 600px;
+    width: 1110px;
+    background: #000;
+}

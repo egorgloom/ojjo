@@ -5,6 +5,7 @@ import CocoFineJewelry from './components/CocoFineJewelry/CocoFineJewelry';
 import Header from './components/Header/Header';
 import ProductCatalog from './components/ProductCatalog/ProductCatalog';
 import Salons from './components/Salons/Salons';
+import SocialLinks from './components/SocialLinks/SocialLinks';
 import UsefulArticles from './components/UsefulArticles/UsefulArticles';
 
 
@@ -19,6 +20,7 @@ function App() {
       <ProductCatalog />
       <Salons />
       <UsefulArticles />
+      <SocialLinks />
     </div>
   );
 }
