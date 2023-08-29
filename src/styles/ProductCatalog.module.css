@@ -13,57 +13,59 @@
     gap: 18px;
     margin-bottom: 55px;
 }
+
 .btnCollection {
     display: inline-block;
     width: 165px;
-height: 61px;
-text-transform: uppercase;
-color: #333;
-background: transparent;
-  border: 1px solid #D6D6D6;
-  box-shadow: 0px 0px 0 1px var(--white), 0px 0px 0 0px #D6D6D6, 4px 4px 0 2px var(--white), 4px 4px 0 3px #D6D6D6;
-
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 1.8px;
-text-transform: uppercase;
-
+    height: 61px;
+    text-transform: uppercase;
+    color: var(--lightBlack);
+    background: transparent;
+    border: 1px solid #D6D6D6;
+    box-shadow: 0px 0px 0 1px var(--white), 0px 0px 0 0px #D6D6D6, 4px 4px 0 2px var(--white), 4px 4px 0 3px #D6D6D6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: var(--font-size18);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
 }
+
 .btnCollection:focus {
-    background: #333;
+    background: var(--lightBlack);
     color: var(--white);
     border-style: none;
 }
+
 .blockProducts {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     width: 1110px;
-    /* max-width: calc(33.333% - 30px); */
 }
+
 .product {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .productImg {
     width: 350px;
-height: 280px;
+    height: 280px;
 }
 
 .nameCollection {
     position: absolute;
     bottom: 30px;
     font-family: 'Montserrat', sans-serif;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 2.4px;
-text-transform: uppercase;
-color: var(--white);
+    font-size: var(--font-size24);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: var(--white);
 }

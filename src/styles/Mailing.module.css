@@ -16,17 +16,19 @@
 
 .listOptions {
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 140%;
+    font-size: var(--font-size18);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
 
 }
+
 .listOptions>li {
     list-style-type: circle;
     padding: 5px;
     color: var(--white);
 }
+
 .formMailing {
     display: flex;
     justify-content: center;
@@ -38,26 +40,28 @@ line-height: 140%;
 
 .mailingInput {
     width: 200px;
-height: 43px;
-border: 1px solid var(--lightBlack);
-color: var(--lightBlack);
-font-family: 'Noto Serif', serif;
-padding-left: 15px;
-font-size: 14px;
+    height: 43px;
+    border: 1px solid var(--lightBlack);
+    color: var(--lightBlack);
+    font-family: 'Noto Serif', serif;
+    padding-left: 15px;
+    font-size: var(--font-size14);
 
 }
 
 .mailingInput:focus {
     outline: none;
 }
-.mailingInput::placeholder, .btnSend {
+
+.mailingInput::placeholder,
+.btnSend {
     font-family: 'Noto Serif', serif;
-    font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 1.4px;
-text-transform: uppercase;
+    font-size: var(--font-size14);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
 }
 
 .btnSend {

@@ -4,6 +4,7 @@ import img2 from '../../images/article2.svg';
 import img3 from '../../images/article3.svg';
 
 import styles from '../../styles/UsefulArticles.module.css'
+import BlackBtn from '../UI/BlackBtn';
 
 
 export default function UsefulArticles() {
@@ -25,7 +26,8 @@ export default function UsefulArticles() {
                 <span className={styles.textArticle}>Как выбрать обручальные кольца молодоженам</span>
                 </div>
         </div>
-        <button className={styles.btnBlog}>читать наш блог</button>
+        {/* <button className={styles.btnBlog}>читать наш блог</button> */}
+        <BlackBtn style={{marginTop: '50px'}}>читать наш блог</BlackBtn>
       
     </section>
   )

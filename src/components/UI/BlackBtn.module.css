@@ -1,0 +1,15 @@
+.catalogBtn {
+    
+    width: 261px;
+    height: 51px;
+    border: 1px solid var(--white);
+    font-size: var(--font-size18);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    color: var(--white);
+    background: var(--lightBlack);
+    cursor: pointer;
+}
