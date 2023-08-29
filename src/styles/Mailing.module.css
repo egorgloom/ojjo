@@ -25,6 +25,7 @@ line-height: 140%;
 .listOptions>li {
     list-style-type: circle;
     padding: 5px;
+    color: var(--white);
 }
 .formMailing {
     display: flex;
@@ -39,11 +40,18 @@ line-height: 140%;
     width: 200px;
 height: 43px;
 border: 1px solid var(--lightBlack);
+color: var(--lightBlack);
+font-family: 'Noto Serif', serif;
+padding-left: 15px;
+font-size: 14px;
 
+}
+
+.mailingInput:focus {
+    outline: none;
 }
 .mailingInput::placeholder, .btnSend {
     font-family: 'Noto Serif', serif;
-    padding-left: 15px;
     font-size: 14px;
 font-style: normal;
 font-weight: 500;

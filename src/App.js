@@ -8,6 +8,7 @@ import Salons from './components/Salons/Salons';
 import SocialLinks from './components/SocialLinks/SocialLinks';
 import UsefulArticles from './components/UsefulArticles/UsefulArticles';
 import Mailing from './components/Mailing/Mailing';
+import Footer from './components/footer/Footer';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <UsefulArticles />
       <SocialLinks />
       <Mailing />
+      <Footer />
     </div>
   );
 }
