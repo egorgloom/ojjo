@@ -1,0 +1,9 @@
+.select {
+    border: 1px solid transparent;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 15px;
+    font-family: 'Noto Serif', serif;
+    font-size: var(--font-size16);
+}

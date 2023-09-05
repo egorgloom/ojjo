@@ -29,6 +29,7 @@
 }
 
 .text {
+    text-align: center;
     width: 730px;
     font-family: 'Montserrat', sans-serif;
     font-size: var(--font-size18);

@@ -1,13 +1,32 @@
-.header {
+/* .header {
     width: 1110px;
     height: 52px;
     display: flex;
     justify-content: space-between;
     font-family: 'Montserrat', sans-serif;
     margin: 0 auto;
-    padding-top: 25px;
+    padding: 25px auto;
     font-size: 50px;
     color: var(--white);
+    
+} */
+
+.header {
+    width: 100%;
+    height: 111px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    
+    color: var(--white);
+    
+}
+
+.headerContainer {
+    display: flex;
+    margin: 0 auto;
+    gap: 90px;
 }
 
 .logo {
@@ -26,7 +45,13 @@
     font-weight: 400;
 
 }
+/* .nav{
+    padding: 18px 0 13px 25px;
+}
 
+.userPanel {
+    padding: 18px 25px 13px 0;
+} */
 .nav,
 .userPanel {
     padding: 18px 0 13px;

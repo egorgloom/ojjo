@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../../styles/Mailing.module.css'
-import BlackBtn from '../UI/BlackBtn';
+import BlackBtn from '../UI/BlackBtn/BlackBtn';
 
 export default function Mailing() {
   return (
@@ -15,7 +15,6 @@ export default function Mailing() {
             </ul>
             <form className={styles.formMailing}>
                 <input type="text" placeholder='Ваш E-mail' className={styles.mailingInput}/>
-                {/* <button className={styles.btnSend} >отправить</button> */}
                 <BlackBtn>отправить</BlackBtn>
                 </form>
         </div>

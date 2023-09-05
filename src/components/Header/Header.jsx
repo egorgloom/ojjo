@@ -3,13 +3,15 @@ import styles from '../../styles/Header.module.css';
 
 import LOGO from '../../images/ojjo.svg'
 
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 import { FaRegUser, FaShoppingCart, FaSearch } from 'react-icons/fa';
 
+
 export default function Header() {
     return (
-        <div className={styles.header}>
+        <div className={styles.header} style={{background: useLocation().pathname === "/" ? "" : "#333"}}>
+            <div className={styles.headerContainer}>
             <nav>
                 <ul className={styles.nav}>
                     <Link to={'/'}><li>Контрагентам</li></Link>
@@ -32,6 +34,7 @@ export default function Header() {
                     <FaRegUser />
                     <FaShoppingCart />
                 </div>
+            </div>
             </div>
 
         </div>

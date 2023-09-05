@@ -33,7 +33,14 @@ li {
   align-items: center;
   justify-content: center;
 }
-
+.containerProducts {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
 .titleH5Section {
   font-family: 'Montserrat', sans-serif;
   font-size: 21px;

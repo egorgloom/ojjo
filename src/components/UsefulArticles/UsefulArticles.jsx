@@ -4,7 +4,7 @@ import img2 from '../../images/article2.svg';
 import img3 from '../../images/article3.svg';
 
 import styles from '../../styles/UsefulArticles.module.css'
-import BlackBtn from '../UI/BlackBtn';
+import BlackBtn from '../UI/BlackBtn/BlackBtn';
 
 
 export default function UsefulArticles() {
