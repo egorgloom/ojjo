@@ -1,13 +1,13 @@
 import React from 'react';
-import Header from './../Header/Header';
-import AppRouter from './../AppRouter/AppRouter';
+
+// import Header from './../Header/Header';
 import Catalog from './../Catalog/Catalog';
 import CocoFineJewelry from './../CocoFineJewelry/CocoFineJewelry';
 import ProductCatalog from './../ProductCatalog/ProductCatalog';
 import Salons from './../Salons/Salons';
 import UsefulArticles from './../UsefulArticles/UsefulArticles';
-import Mailing from './../Mailing/Mailing';
-import Footer from './../footer/Footer';
+// import Mailing from './../Mailing/Mailing';
+// import Footer from './../footer/Footer';
 import SocialLinks from './../SocialLinks/SocialLinks';
 
 
@@ -17,9 +17,7 @@ import SocialLinks from './../SocialLinks/SocialLinks';
 export default function Home() {
   return (
     <>
-            <div className="bgRing">
-        <Header />
-
+      <div className="catalogFlex">
         <Catalog />
         <CocoFineJewelry />
       </div>
@@ -27,8 +25,6 @@ export default function Home() {
       <Salons />
       <UsefulArticles />
       <SocialLinks />
-      <Mailing />
-      <Footer />
     </>
   )
 }

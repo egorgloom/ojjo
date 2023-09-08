@@ -1,0 +1,66 @@
+.routes {
+    margin-top: calc(111px + 60px);
+    margin-bottom: 54px;
+}
+
+.flexGap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 120px;
+    margin-bottom: 120px;
+}
+
+.imgSingleProduct {
+    width: 47%;
+    height: 430px;
+}
+
+.containerSingleProduct {
+    display: flex;
+    gap: 30px;
+    width: 1110px;
+}
+
+.descriptionContainer {
+    padding: 40px 30px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: 1px solid #D6D6D6;
+    font-family: 'Noto Serif', serif;
+    font-style: normal;
+    color: var(--lightBlack);
+}
+
+.title {
+    font-size: var(--font-size24);
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
+
+.infoProduct {
+    display: flex;
+    gap: 25px;
+    font-size: var(--font-size14);
+    font-weight: 400;
+    line-height: 150%;
+    color: #979797;
+}
+
+.descriptionProduct {
+    font-size: var(--font-size14);
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.price {
+    font-size: var(--font-size24);
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}

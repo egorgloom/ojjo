@@ -5,6 +5,7 @@
     justify-content: center;
     background: url('../images/bgSalons.svg') center center no-repeat;
     height: 478px;
+    width: 100%;
 }
 
 .mailing {

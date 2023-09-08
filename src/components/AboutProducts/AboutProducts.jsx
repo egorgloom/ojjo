@@ -9,7 +9,7 @@ import IMG_DESIGN from '../../images/design.svg'
 
 export default function AboutProducts() {
     return (
-        <div className={styles.containerAboutUs}>
+        <section className={styles.containerAboutUs}>
             <div className={styles.seoList}>
                 <p className={styles.aboutUs}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus qui non nemo eaque sed! Nostrum ullam, molestiae dolorem quaerat rem soluta dolor impedit cumque tempora, deserunt voluptatibus? Nisi, explicabo possimus.</p>
             </div>
@@ -31,7 +31,7 @@ export default function AboutProducts() {
                     <figcaption className={styles.titleImgIcon}>Личный подход</figcaption>
                 </figure>
             </div>
-        </div>
+        </section>
 
     )
 }

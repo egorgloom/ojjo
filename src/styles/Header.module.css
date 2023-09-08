@@ -1,26 +1,15 @@
-/* .header {
-    width: 1110px;
-    height: 52px;
-    display: flex;
-    justify-content: space-between;
-    font-family: 'Montserrat', sans-serif;
-    margin: 0 auto;
-    padding: 25px auto;
-    font-size: 50px;
-    color: var(--white);
-    
-} */
+
 
 .header {
     width: 100%;
+    position: absolute;
+    top: 0;
     height: 111px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
-    
     color: var(--white);
-    
 }
 
 .headerContainer {
@@ -45,13 +34,7 @@
     font-weight: 400;
 
 }
-/* .nav{
-    padding: 18px 0 13px 25px;
-}
 
-.userPanel {
-    padding: 18px 25px 13px 0;
-} */
 .nav,
 .userPanel {
     padding: 18px 0 13px;
@@ -106,4 +89,9 @@
     cursor: pointer;
     display: flex;
     gap: 25px;
+    
+}
+
+.cartUser > a {
+    color: var(--white);
 }

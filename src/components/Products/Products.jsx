@@ -1,40 +1,32 @@
 import React from 'react';
+import { useGetProductsQuery } from '../../features/apiSlice/apiSlice';
 
-import AboutProducts from '../AboutProducts/AboutProducts'
-import Footer from '../footer/Footer'
-import Header from '../Header/Header'
-import Mailing from '../Mailing/Mailing'
-import MySelect from '../Select/MySelect'
-import Product from './Product'
+import AboutProducts from '../AboutProducts/AboutProducts';
+import Filters from '../Filters/Filters';
+
+import Product from './Product';
 
 
 export default function Products() {
 
+  const { data } = useGetProductsQuery()
+
+
   return (
-    <div >
-        <Header />
-        <section className='flex flex-center'>
-          <MySelect
-          defaultValue='Цена'
-          options={[
-            { value: 'up', name: 'По возрастанию' },
-            { value: 'down', name: 'По убыванию' }
-
-          ]}/>
-        </section>
+    <>
+      <Filters />
+      <div className='wrapperProduct'>
         <section className='containerProducts'>
-        <Product />
-        <Product />
-        <Product />
-        <Product />
-        <Product />
-        <Product />
-
+          {!data ? (<div>Not Found...</div>) : (
+            <>
+              {data.map((item) => <Product {...item} key={item.id} />)}
+            </>
+          )}
         </section>
         <AboutProducts />
-      <Mailing />
-      <Footer />
-    </div>
-    
+      </div>
+
+    </>
+
   )
 }

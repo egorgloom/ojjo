@@ -14,15 +14,39 @@ li {
   list-style: none;
 }
 
-.bgRing {
-  background: url('../images/bgRing.svg') center center no-repeat;
-  width: 1274px;
-  height: 950px;
+body {
+
+  width: 1920px;
+
+  height: 100%;
+
+}
+
+.wrapperProducts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: calc(111px);
 }
 
 .app {
-  width: 1274px;
+  width: 1920px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin: 0 auto;
+}
+.catalogFlex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  width: 100%;
+  height: 950px;
+  background: url('../images/bgRing.svg') center center no-repeat;
+
 }
 
 .flex {
@@ -32,6 +56,19 @@ li {
 .flex-center {
   align-items: center;
   justify-content: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.wrapperProduct {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 120px;
+  margin-bottom: 120px;
 }
 .containerProducts {
   width: 1000px;

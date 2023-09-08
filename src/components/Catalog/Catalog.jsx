@@ -1,8 +1,13 @@
 import React from 'react';
+
 import { Link } from 'react-router-dom';
-import styles from '../../styles/Catalog.module.css'
-import BlackBtn from '../UI/BlackBtn/BlackBtn';
 import { ROUTES } from './../../utils/routes';
+
+import styles from '../../styles/Catalog.module.css'
+
+import BlackBtn from '../UI/BlackBtn/BlackBtn';
+
+
 
 export default function Catalog() {
   return (

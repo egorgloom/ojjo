@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     height: 541px;
+    width: 100%;
     background: url('../images/bgSalons.svg') center center no-repeat;
 }
 
