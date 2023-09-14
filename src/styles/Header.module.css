@@ -1,7 +1,5 @@
-
-
 .header {
-    width: 100%;
+    width: 1920px;
     position: absolute;
     top: 0;
     height: 111px;
@@ -15,7 +13,7 @@
 .headerContainer {
     display: flex;
     margin: 0 auto;
-    gap: 90px;
+    gap: 40px;
 }
 
 .logo {
@@ -32,12 +30,11 @@
     font-size: var(--font-size14);
     font-style: normal;
     font-weight: 400;
-
 }
 
 .nav,
 .userPanel {
-    padding: 18px 0 13px;
+    padding: 18px 0 18px;
 }
 
 .nav>a>li {
@@ -46,24 +43,6 @@
     font-style: normal;
     font-weight: 400;
 }
-
-.search {
-    margin: 0;
-    padding: 0;
-    width: 48px;
-    height: 21px;
-    border: none;
-    background: none;
-}
-
-.search::placeholder {
-
-    font-size: var(--font-size14);
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
-}
-
 
 .faSearch {
     width: 24px;
@@ -89,9 +68,8 @@
     cursor: pointer;
     display: flex;
     gap: 25px;
-    
 }
 
-.cartUser > a {
+.cartUser>a {
     color: var(--white);
 }

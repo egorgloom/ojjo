@@ -15,11 +15,9 @@ li {
 }
 
 body {
-
   width: 1920px;
-
+  margin: 0 auto;
   height: 100%;
-
 }
 
 .wrapperProducts {
@@ -37,6 +35,7 @@ body {
   justify-content: center;
   margin: 0 auto;
 }
+
 .catalogFlex {
   display: flex;
   flex-direction: column;
@@ -62,6 +61,7 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 .wrapperProduct {
   display: flex;
   flex-direction: column;
@@ -70,6 +70,7 @@ body {
   gap: 120px;
   margin-bottom: 120px;
 }
+
 .containerProducts {
   width: 1000px;
   display: flex;
@@ -78,22 +79,25 @@ body {
   flex-wrap: wrap;
   margin: 0 auto;
 }
+
 .titleH5Section {
   font-family: 'Montserrat', sans-serif;
   font-size: 21px;
-font-style: normal;
-font-weight: 400;
-line-height: 140%;
-margin-bottom: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin-bottom: 15px;
 }
+
 .colorWhite {
   color: var(--white);
 }
+
 .titleH2Section {
   font-family: 'Noto Serif', serif;
-font-size: 30px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-bottom: 60px;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 60px;
 }

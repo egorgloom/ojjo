@@ -1,16 +1,15 @@
 import React from 'react';
+
 import { useGetProductsQuery } from '../../features/apiSlice/apiSlice';
 
 import AboutProducts from '../AboutProducts/AboutProducts';
 import Filters from '../Filters/Filters';
-
 import Product from './Product';
 
 
 export default function Products() {
 
   const { data } = useGetProductsQuery()
-
 
   return (
     <>
@@ -25,8 +24,6 @@ export default function Products() {
         </section>
         <AboutProducts />
       </div>
-
     </>
-
   )
 }

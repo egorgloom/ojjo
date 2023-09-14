@@ -1,4 +1,5 @@
 import React from 'react';
+
 import styles from '../../styles/ProductCatalog.module.css';
 
 import img1 from '../../images/1.svg';
@@ -46,7 +47,6 @@ export default function ProductCatalog() {
                     <img src={img6} alt="" className={styles.product} />
                     <span className={styles.nameCollection}>Часы</span>
                 </div>
-
             </div>
         </section>
     )

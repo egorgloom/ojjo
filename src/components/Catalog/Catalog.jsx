@@ -14,8 +14,7 @@ export default function Catalog() {
     <div className={styles.catalogContainer}>
       <h1 className={styles.catalog}>Долго, дорого, богато!</h1>
       <Link to={ROUTES.PRODUCTS}>
-
-      <BlackBtn>каталог изделий</BlackBtn>
+        <BlackBtn>каталог изделий</BlackBtn>
       </Link>
     </div>
   )

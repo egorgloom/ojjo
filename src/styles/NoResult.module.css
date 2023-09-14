@@ -1,0 +1,5 @@
+.noResult {
+    color: var(--lightBlack);
+    font-family: 'Noto Serif', serif;
+    font-size: var(--font-size16);
+}

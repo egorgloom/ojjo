@@ -1,5 +1,5 @@
 .brandsContainer {
-height: 100%;
+    height: 100%;
 }
 
 .line {
@@ -8,23 +8,25 @@ height: 100%;
     height: 1px;
     margin-bottom: 30px;
 }
+
 .brands {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.brands > img {
+.brands>img {
     width: 160px;
     height: 60px;
     border-right: 1px solid var(--white);
     padding: 0 10px;
 }
 
-.brands > img:last-child {
+.brands>img:last-child {
     border-right: none;
     padding-right: 0;
 }
-.brands > img:first-child { 
+
+.brands>img:first-child {
     padding-left: 0;
 }

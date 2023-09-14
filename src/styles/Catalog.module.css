@@ -6,11 +6,9 @@
     margin-top: 30%;
     gap: 50px;
     font-family: 'Noto Serif', serif;
-    
 }
 
 .catalog {
-    
     font-size: var(--font-size36);
     font-style: normal;
     font-weight: 700;

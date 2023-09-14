@@ -1,7 +1,5 @@
 .catalogBtn {
-    
-    width: 261px;
-    height: 51px;
+    padding: 15px 20px;
     border: 1px solid var(--white);
     font-size: var(--font-size18);
     font-style: normal;

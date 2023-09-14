@@ -4,7 +4,7 @@ import { BASE_URL } from '../../utils/common';
 
 export const apiSlice = createApi({
     reducerPath: 'api',
-    baseQuery: fetchBaseQuery({ baseUrl: BASE_URL}),
+    baseQuery: fetchBaseQuery({ baseUrl: BASE_URL }),
     tagTypes: ['Products'],
     endpoints: (builder) => ({
         getProducts: builder.query({
@@ -12,11 +12,11 @@ export const apiSlice = createApi({
             providesTags: ['Products']
         }),
         getProduct: builder.query({
-            query: ({id}) => `/${id}`,
+            query: ({ id }) => `/${id}`,
             providesTags: ['Product']
-        })
+        }),
     }),
 
 })
 
-export const { useGetProductsQuery, useGetProductQuery} = apiSlice
+export const { useGetProductsQuery, useGetProductQuery } = apiSlice

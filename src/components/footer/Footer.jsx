@@ -9,8 +9,8 @@ import TELEGRAM from '../../images/telegram.svg';
 import EMAIL from '../../images/email.svg';
 import PHONE from '../../images/old-phone.svg';
 
-
 import styles from '../../styles/Footer.module.css';
+
 import { Link } from 'react-router-dom';
 
 
@@ -34,19 +34,17 @@ export default function Footer() {
                     <h3 className={styles.usefulLinks}>оплата</h3>
                     <hr />
                     <p className={styles.lorem}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima fugiat error totam est mollitia magni exercitationem, eos hic libero ea, ipsa nulla! Impedit explicabo labore sapiente ullam incidunt rem. Voluptatem?</p>
-                    
-                        <ul className={styles.footerLinks}>
-                            <li><a href="https://by.visa.com/" title='Оплата с помощью Visa' target='_blank' rel="noreferrer">
-                                <img src={VISA} alt="Visa" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.mastercard.com/global/en.html" title='Оплата с помощью MasterCard' target='_blank' rel="noreferrer">
-                                    <img src={MASTER_CARD} alt="MasterCard" />
-                                    </a>
-                            </li>
-                        </ul>
-                    
+                    <ul className={styles.footerLinks}>
+                        <li><a href="https://by.visa.com/" title='Оплата с помощью Visa' target='_blank' rel="noreferrer">
+                            <img src={VISA} alt="Visa" />
+                        </a>
+                        </li>
+                        <li>
+                            <a href="https://www.mastercard.com/global/en.html" title='Оплата с помощью MasterCard' target='_blank' rel="noreferrer">
+                                <img src={MASTER_CARD} alt="MasterCard" />
+                            </a>
+                        </li>
+                    </ul>
                 </div>
                 <div>
                     <h3 className={styles.usefulLinks}>контакты</h3>
@@ -70,35 +68,33 @@ export default function Footer() {
                     <h3 className={styles.usefulLinks}>социальные сети</h3>
                     <hr />
                     <p className={styles.lorem}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima fugiat error totam est mollitia magni exercitationem, eos hic libero ea, ipsa nulla! Impedit explicabo labore sapiente ullam incidunt rem. Voluptatem?</p>
-                    
-                        <ul className={styles.footerLinks}>
-                            <li>
-                                <a href="https://www.youtube.com/" target='_blank' title='Наш YouTube' rel="noreferrer">
-                                    <img src={YOUTUBE} alt="YOUTUBE" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://vk.com/feed" target='_blank' title='Наш VK' rel="noreferrer">
-                                    <img src={VK} alt="VK" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.facebook.com/" target='_blank' title='Наш Facebook' rel="noreferrer">
-                                    <img src={FACEBOOK} alt="FACEBOOK" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://telegram.org/" target='_blank' title='Наш Telegram' rel="noreferrer">
-                                    <img src={TELEGRAM} alt="TELEGRAM" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="mailto: ojjo@ojjo.ru" target='_blank' title='Написать нам на наш E-mail' rel="noreferrer">
-                                    <img src={EMAIL} alt="EMAIL" />
-                                </a>
-                            </li>
-                        </ul>
-                    
+                    <ul className={styles.footerLinks}>
+                        <li>
+                            <a href="https://www.youtube.com/" target='_blank' title='Наш YouTube' rel="noreferrer">
+                                <img src={YOUTUBE} alt="YOUTUBE" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://vk.com/feed" target='_blank' title='Наш VK' rel="noreferrer">
+                                <img src={VK} alt="VK" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target='_blank' title='Наш Facebook' rel="noreferrer">
+                                <img src={FACEBOOK} alt="FACEBOOK" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://telegram.org/" target='_blank' title='Наш Telegram' rel="noreferrer">
+                                <img src={TELEGRAM} alt="TELEGRAM" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto: ojjo@ojjo.ru" target='_blank' title='Написать нам на наш E-mail' rel="noreferrer">
+                                <img src={EMAIL} alt="EMAIL" />
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <hr />

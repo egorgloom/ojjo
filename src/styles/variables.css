@@ -1,11 +1,12 @@
 :root {
 --white: #FFF;
 --lightBlack: #333;
+--black: #000;
+--font-size14: 12px;
 --font-size14: 14px;
 --font-size18: 18px;
 --font-size21: 21px;
 --font-size24: 24px;
 --font-size30: 30px;
 --font-size36: 36px;
-
 }
